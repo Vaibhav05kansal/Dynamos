@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+:root{
+    --color-dark:hsl(252,30%,17%);
+    --color-light:rgb(211, 205, 235);
+    --color-white:hsl(252,30%,95%);
+    --color-gray:hsl(256,30%,19%);
+    --bgColor: hsl(20, 50%, 60%);
+    --color-primary:hsl(252,75%,60%);
+    --color-secondary:hsl(252,100%,90%);
+    --color-success:hsl(120,95%,65%);
+    --color-danger:hsl(0,95%,65%);
+    --color-black:hsl(252,30%,10%);
+
+
+    --border-radius: 2rem; 
+    --card-border-radius: 1rem;
+    --btn-padding:  0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+
+
+
+
+}
+*,
+*::before,
+*::after{
+    margin-block-end: 0;
+    padding: 0%;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+body{
+
+    font-family: 'Poppins', sans-serif;
+    color:var(--color-dark) ;
+    background: var(--color-light);
+    overflow-x: hidden;
+}
+
+
+.profile-picture{
+    width: 2.7rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: left;
+
+
+}
+img{
+    display: block;
+    width: 100%;
+    
+
+
+}
+.btn{
+    display: inline-block;
+    padding: var(--btn-padding);
+    font-weight: 500;
+    border-radius: var(--card-border-radius);
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 0.9rem;
+
+
+}
+.create{
+    align-items: center;
+}
+.btn:hover{
+    opacity: 0.9;
+    
+}
+.btn-primary{
+    background: var(--color-primary);
+    color: white;
+
+}
+.text-bold{
+    font-weight: 500;
+
+}
+.text-muted{
+    color:var(--color-gray);
+
+}
+
+/* --------navbar-------------- */
+ 
+nav {
+    width: 100%;
+    background: var(--color-white);
+    padding: 0.2rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
+}
+.search-bar{
+    width: 500px;
+}
+nav.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav .search-bar{
+    background: var(--color-light);
+    border-radius: var(--border-radius);
+    padding: var(--search-padding);
+
+}
+nav .search-bar input[type="search"]{
+    background: transparent;
+    width: 30vm;
+    margin: 0.8rem;
+    font-size: 0.9rem;
+    color: var(--color-dark);
+}
+nav .search-bar input[type="search"]::placeholder{
+    color: var(--color-grey);
+
+}
+nav .create{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+.profile-photo{
+    width: 2.8rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    
+
+}
+
+.btn{
+    display: inline-block;
+    padding: var(--btn-padding);
+    font-weight: 500;
+    border-radius: var(--card-border-radius);
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 0.9rem;
+
+
+}
