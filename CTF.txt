@@ -1,0 +1,114 @@
+1. What is cyber CTF?
+
+	Using your infosec skills to penetrate and solve intentionally compromized challenges related to computer security and capture the flags located at various not-so-easy-to-find locations.
+
+	Generally played as a competition between teams or individuals. Organized by reputed organizations in the security field worldwide and played by students learning cyber security, competing for different types of prizes and bragging rights. Used as a learning tool for everyone that is interested in cyber security and it can help sharpen the tools they have learned during their training.
+
+2. All depends on interest and hands on skills in cyber security, not on degree, age, branch, college, etc.
+
+2. Format:
+
+	Generally consists of:
+	1. Title
+	2. Short Description
+	3. Downloadable files, and/or
+	4. Server IP/hostname (target)
+
+3. Types:
+	
+	1. Competition Based: 
+
+		Held at regular intervals worldwide by different organizations and teams, which may be of 1,2,3 days LIVE or more than that.
+
+		1. Jeopardy style: Play and solve individual challenges to find flags hidden inside them and gain gradual points for each. Consists of variety of challenges related to:
+			1. Web
+			2. Cryptography
+			3. Pwning
+			4. Forensics
+			5. Reverse Engineering
+			6. Steganography
+			7. Misc
+
+		2. Attack-Defence(Wargames): Teams are given their own random machines and they need to penetrate each other's machines, simultaneously defending their own ones, by finding and patching vulns as quickly as possible.
+
+	2. Online Practice labs
+
+		Beginner to advanced level labs for practicing and sharpening skills for competitions and hands on. They are available anytime and users can access at their ease. They generally have a subscription pack with some features available for free.
+
+4. Prizes and Rewards: Many, including premium access to online labs, free conference passes (NULLCon, OWASP etc.), chance for onsite participation, premium swags (T-shirts, badges, stickers, etc.), certificates, cash prizes and many more
+
+5. What to study/learn?
+
+	1. Web: OWASP Top 10, all major Web Attacks (XSS, SQLi, LFI/RFI, CSRF, RCE, File uploads, etc.)
+	2. Crypto: Cryptography, encoding/decoding basics, Hashing (MD5, SHA1, SHA2, Base64, ROT13, DES, AES, etc.) and understanding code (Python)
+	3. Pwning: System exploitation, MetaSploit, exploit-db, privilege escalation
+	4. Forensics: File and Data storage on Disks, Storage device architecture and working (Hard Disk, SSD, etc.)
+	5. Reverse Engineering: Assembly
+	6. Steganography
+	7. Misc: Basic Programming (C,C++,JAVA), Packet Analysis, Malwares, etc.
+
+6. CTF Challenges
+
+	1. Basics
+		1. Competitions
+			PicoCTF: https://picoctf.com/
+		2. Online Practice Labs
+			Hacker101: https://www.hacker101.com/
+			TryHackMe: https://tryhackme.com
+
+	2. Intermediate to Advanced
+		1. Competitions
+			HITCON CTF: https://ctf2019.hitcon.org/
+			Google CTF: https://capturetheflag.withgoogle.com/
+		2. Online Practice Labs
+			HackTheBox: https://www.hackthebox.eu/
+			OverTheWire: https://overthewire.org/wargames/
+			Natas: https://overthewire.org/wargames/natas/
+			Bandit: https://overthewire.org/wargames/bandit/
+
+7. What to Follow?
+
+	1. Writeups
+		GitHub: https://github.com/ctfs
+		Reddit: https://www.reddit.com/r/securityCTF/
+		Medium: https://medium.com/ctf-writeups
+
+	2. CTF Calendar
+		CTFTime: https://ctftime.org/
+
+	3. Other Useful resources
+		GitHub: https://github.com/apsdehal/awesome-ctf
+		GitHub: https://ctfs.github.io/resources/
+		InfoSec Institute: https://resources.infosecinstitute.com/tools-of-trade-and-resources-to-prepare-in-a-hacker-ctf-competition-or-challenge/#gref
+		PicoCTF: https://picoctf.com/resources
+		https://kongwenbin.com/resources-for-capture-the-flag/
+
+8. Words of wisdom
+
+	1. PATIENCE IS THE KEY, takes years to master, don't fall for overnight success
+	2. Do not expect someone will spoon feed you everything.
+	3. Confidence
+	4. SKILL DEVELOPMENT AND EXPERIENCE IS THE BIGGEST REWARD
+	5. Not always for rewards
+	6. Learn a lot
+	7. May not be able to solve anything at the beginning, we are the same, don't lose hope
+	8. Stay focused
+	9. Depend on yourself
+	10. Stay updated with infosec world
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
